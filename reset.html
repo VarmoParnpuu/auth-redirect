@@ -9,7 +9,7 @@
   const email = params.get('email');
 
   // Construct your deep link
-  const deepLink = `myapp://reset-password?token=${token}&email=${email}`;
+  const deepLink = `chessy://reset-password?token=${token}&email=${email}`;
 
   // Redirect to app
   window.location.href = deepLink;
